@@ -1,0 +1,12 @@
+torch>=2.1.0
+transformers>=4.35.0
+accelerate>=0.21.0
+pillow
+datasets
+google-generativeai>=0.3.0
+python-dotenv
+scikit-learn
+pandas
+numpy
+opencv-python
+decord
