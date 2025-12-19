@@ -1,0 +1,68 @@
+{
+    "description": "",
+    "citation": "",
+    "homepage": "",
+    "license": "",
+    "features": {
+        "id": {
+            "dtype": "int32",
+            "_type": "Value"
+        },
+        "image_0": {
+            "_type": "Image"
+        },
+        "image_1": {
+            "_type": "Image"
+        },
+        "caption_0": {
+            "dtype": "string",
+            "_type": "Value"
+        },
+        "caption_1": {
+            "dtype": "string",
+            "_type": "Value"
+        },
+        "tag": {
+            "dtype": "string",
+            "_type": "Value"
+        },
+        "secondary_tag": {
+            "dtype": "string",
+            "_type": "Value"
+        },
+        "num_main_preds": {
+            "dtype": "int32",
+            "_type": "Value"
+        },
+        "collapsed_tag": {
+            "dtype": "string",
+            "_type": "Value"
+        }
+    },
+    "builder_name": "parquet",
+    "dataset_name": "winoground",
+    "config_name": "default",
+    "version": {
+        "version_str": "0.0.0",
+        "major": 0,
+        "minor": 0,
+        "patch": 0
+    },
+    "splits": {
+        "test": {
+            "name": "test",
+            "num_bytes": 369491061,
+            "num_examples": 400,
+            "dataset_name": "winoground"
+        }
+    },
+    "download_checksums": {
+        "hf://datasets/facebook/winoground@b400e173549071916ad1b3d449293bc8d8b4b763/data/test-00000-of-00001.parquet": {
+            "num_bytes": 367365762,
+            "checksum": null
+        }
+    },
+    "download_size": 367365762,
+    "dataset_size": 369491061,
+    "size_in_bytes": 736856823
+}
