@@ -146,7 +146,7 @@ export default function BenchmarkAnalysis() {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
-        <div className="lg:col-span-2 bg-white p-6 rounded-xl border border-slate-200 shadow-sm h-[450px]">
+        <div className="lg:col-span-2 bg-white p-6 rounded-xl border border-slate-200 shadow-sm h-112.5">
           <h3 className="font-bold text-slate-800 mb-4">
             Bias vs. Reasoning Capability
           </h3>
@@ -159,7 +159,7 @@ export default function BenchmarkAnalysis() {
           <h3 className="font-bold text-slate-800 mb-4 border-b pb-2">
             Benchmark Details
           </h3>
-          <div className="space-y-4 h-[350px] overflow-y-auto no-scrollbar pr-2">
+          <div className="space-y-4 h-87.5 overflow-y-auto no-scrollbar pr-2">
             {benchmarks.map((b) => (
               <div
                 key={b.id}

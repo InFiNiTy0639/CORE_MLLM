@@ -164,7 +164,7 @@ export default function ModelArena() {
           </div>
         </div>
 
-        <div className="lg:col-span-2 bg-white p-6 rounded-xl border border-slate-200 shadow-sm flex flex-col items-center justify-center h-[500px]">
+        <div className="lg:col-span-2 bg-white p-6 rounded-xl border border-slate-200 shadow-sm flex flex-col items-center justify-center h-125">
           <div className="relative w-full h-full">
             {/* @ts-ignore */}
             <Radar data={data} options={options} />
